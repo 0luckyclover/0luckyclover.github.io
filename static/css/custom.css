@@ -4,14 +4,14 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 
 */
 :root {
-  --hl-color: #d3af86;      /*代码框字体顔色 【必须】 (把下面.hljs的 color复製到这里来)*/
-  --hl-bg: #221a0f;         /*代码框背景色 【必须】 (把下面.hljs的 background复製到这里来)*/
-  --hltools-bg: #321a0f;    /*代码框顶部工具栏背景色 【可选】(如果你关掉了 copy、lang 和 shrink,可不用配置这个）*/
-  --hltools-color: #fff;    /*代码框顶部工具栏字体顔色 【可选】(如果你关掉了 copy、lang 和 shrink,可不用配置这个）*/
-  --hlnumber-bg: #221a0f;   /*代码框行数背景色 【可选】(如果已经关掉 line_number,可以不用配置这个)*/
-  --hlnumber-color: #fff;   /*代码框行数字体顔色 【可选】 (如果已经关掉 line_number,可以不用配置这个)*/
-  --hlscrollbar-bg: #d3af86;/*代码框滚动条顔色 【可选】（默认为主题主顔色）*/
-  --hlexpand-bg: #d3af86;   /*代码框底部展开背景色 【可选】(如果已经关掉 highlight_height_limit,可以不用配置这个)*/
+  --hl-color: #d3af86;      /*ä»£ç æ¡†å­—ä½“é¡”è‰² ã€å¿…é¡»ã€‘ (æŠŠä¸‹é¢.hljsçš„ colorå¤è£½åˆ°è¿™é‡Œæ¥)*/
+  --hl-bg: #07020eb0;         /*ä»£ç æ¡†èƒŒæ™¯è‰² ã€å¿…é¡»ã€‘ (æŠŠä¸‹é¢.hljsçš„ backgroundå¤è£½åˆ°è¿™é‡Œæ¥)*/
+  --hltools-bg: #321a0f;    /*ä»£ç æ¡†é¡¶éƒ¨å·¥å…·æ èƒŒæ™¯è‰² ã€å¯é€‰ã€‘(å¦‚æžœä½ å…³æŽ‰äº† copyã€lang å’Œ shrink,å¯ä¸ç”¨é…ç½®è¿™ä¸ªï¼‰*/
+  --hltools-color: #fff;    /*ä»£ç æ¡†é¡¶éƒ¨å·¥å…·æ å­—ä½“é¡”è‰² ã€å¯é€‰ã€‘(å¦‚æžœä½ å…³æŽ‰äº† copyã€lang å’Œ shrink,å¯ä¸ç”¨é…ç½®è¿™ä¸ªï¼‰*/
+  --hlnumber-bg: #221a0f;   /*ä»£ç æ¡†è¡Œæ•°èƒŒæ™¯è‰² ã€å¯é€‰ã€‘(å¦‚æžœå·²ç»å…³æŽ‰ line_number,å¯ä»¥ä¸ç”¨é…ç½®è¿™ä¸ª)*/
+  --hlnumber-color: #fff;   /*ä»£ç æ¡†è¡Œæ•°å­—ä½“é¡”è‰² ã€å¯é€‰ã€‘ (å¦‚æžœå·²ç»å…³æŽ‰ line_number,å¯ä»¥ä¸ç”¨é…ç½®è¿™ä¸ª)*/
+  --hlscrollbar-bg: #d3af86;/*ä»£ç æ¡†æ»šåŠ¨æ¡é¡”è‰² ã€å¯é€‰ã€‘ï¼ˆé»˜è®¤ä¸ºä¸»é¢˜ä¸»é¡”è‰²ï¼‰*/
+  --hlexpand-bg: #d3af86;   /*ä»£ç æ¡†åº•éƒ¨å±•å¼€èƒŒæ™¯è‰² ã€å¯é€‰ã€‘(å¦‚æžœå·²ç»å…³æŽ‰ highlight_height_limit,å¯ä»¥ä¸ç”¨é…ç½®è¿™ä¸ª)*/
 }
 .hljs {
     background: white;
@@ -29,7 +29,7 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
   .hljs-built_in,
   .hljs-name,
   .hljs-tag {
-    color: #00f;
+    color: #4343cc;
   }
   
   .hljs-string,
@@ -41,7 +41,7 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
   .hljs-template-variable,
   .hljs-type,
   .hljs-addition {
-    color: #a31515;
+    color: #408d2f;
   }
   
   .hljs-deletion,
